@@ -7,6 +7,11 @@ export default {
             name: "week",
             type: "string",
             title: "Week"
+        },
+        {
+            name: "weeknr",
+            type: "number",
+            title: "Week Nr"
         }
     ]
 };

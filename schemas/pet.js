@@ -17,6 +17,12 @@ export default {
             name: "weight",
             type: "string",
             title: "Weight"
-        }
+        },
+        {
+            name: "ownerref",
+            type: "reference",
+            title: "Owner Ref",
+            to: [{ type: "user" }]
+        },
     ]
 };

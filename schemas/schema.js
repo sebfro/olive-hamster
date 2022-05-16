@@ -7,6 +7,7 @@ import pet from "./pet";
 import workout from "./workout";
 import workoutDay from "./workoutDay";
 import workoutWeek from "./workoutWeek";
+import users from "./users";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -15,6 +16,7 @@ export default createSchema({
     pet,
     workout,
     workoutDay,
-    workoutWeek
+    workoutWeek,
+    users
   ]),
 });
